@@ -1,0 +1,7 @@
+.footer-container{
+    height: 25px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: var(--black);
+}
