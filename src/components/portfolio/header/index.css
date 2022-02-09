@@ -1,0 +1,7 @@
+.header-container{
+    background-color: var(--black);
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
