@@ -1,4 +1,5 @@
-[![Auto Deploy](https://github.com/manjushsh/manjushsh-gh-pages/actions/workflows/deploy-app.yml/badge.svg)](https://github.com/manjushsh/manjushsh-gh-pages/actions/workflows/deploy-app.yml) [![CodeQL Checks](https://github.com/manjushsh/manjushsh-gh-pages/actions/workflows/code-ql.yml/badge.svg)](https://github.com/manjushsh/manjushsh-gh-pages/actions/workflows/code-ql.yml)
+<!-- [![Auto Deploy](https://github.com/manjushsh/manjushsh-gh-pages/actions/workflows/deploy-app.yml/badge.svg)](https://github.com/manjushsh/manjushsh-gh-pages/actions/workflows/deploy-app.yml)  -->
+[![CodeQL Checks](https://github.com/manjushsh/manjushsh-gh-pages/actions/workflows/code-ql.yml/badge.svg)](https://github.com/manjushsh/manjushsh-gh-pages/actions/workflows/code-ql.yml)
 
 ## Available Scripts
 
