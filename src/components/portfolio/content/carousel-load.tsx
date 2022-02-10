@@ -15,10 +15,7 @@ const DefaultCarousel = () => {
         const URL = `${process.env.REACT_APP_UNSPLASH_API_URL}/photos/random?client_id=${process.env.REACT_APP_UNSPLASH_ACCESS_KEY}`;
         fetch(URL)
             .then(response => response.json())
-            .then(imageDetails => {
-                console.warn(imageDetails);
-                setNewURL(imageDetails?.urls?.regular);
-            })
+            .then(imageDetails => setNewURL(imageDetails?.urls?.regular))
             .catch(error => {
                 console.debug("Something went wrong! Error details", error?.message);
             });
@@ -73,9 +70,6 @@ const PopulateCarousels = ({ imageURL, setNewURL }: GetRandomImageType) => {
             </Carousel.Caption>
         </Carousel.Item>)
     ));
-
-    console.warn("Nodes ", nodes);
-
 
     return nodes;
 }
