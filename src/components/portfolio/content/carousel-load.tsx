@@ -2,28 +2,33 @@ import { useEffect, useState } from "react";
 import { Carousel } from "react-bootstrap";
 import CommonCarousel from "../common/carousel";
 import { GetRandomImageType } from "../index.d";
+import PlaceHolder from '../assets/colorful.jpg';
 
 import './index.css';
 
 const DefaultCarousel = () => {
 
-    const placeHolderURL = `https://via.placeholder.com/1366x768/114bcb/cae3fa?text=First+Slide`;
+    const placeHolderURL = PlaceHolder; // `https://via.placeholder.com/1366x768/114bcb/cae3fa?text=First+Slide`;
     const [index, setIndex] = useState(0);
     const [imageURL, setNewURL] = useState(placeHolderURL);
 
     useEffect(() => {
         const URL = `${process.env.REACT_APP_UNSPLASH_API_URL}/photos/random?client_id=${process.env.REACT_APP_UNSPLASH_ACCESS_KEY}`;
+        fetchURL(URL);
+    });
+
+    const handleSelect = (selectedIndex: number, e: any) => {
+        setIndex(selectedIndex);
+    };
+
+    const fetchURL = (URL: string) => {
         fetch(URL)
             .then(response => response.json())
             .then(imageDetails => setNewURL(imageDetails?.urls?.regular))
             .catch(error => {
                 console.debug("Something went wrong! Error details", error?.message);
             });
-    });
-
-    const handleSelect = (selectedIndex: number, e: any) => {
-        setIndex(selectedIndex);
-    };
+    }
 
     return (
         <>
