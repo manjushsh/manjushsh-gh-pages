@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/manjushsh-gh-pages/static/css/main.f1f717e3.css",
-    "main.js": "/manjushsh-gh-pages/static/js/main.06b7168e.js",
+    "main.css": "/manjushsh-gh-pages/static/css/main.a74ba2cb.css",
+    "main.js": "/manjushsh-gh-pages/static/js/main.650c2a3a.js",
+    "static/media/colorful.jpg": "/manjushsh-gh-pages/static/media/colorful.cdb6e679594c1b509e25.jpg",
     "index.html": "/manjushsh-gh-pages/index.html",
-    "main.f1f717e3.css.map": "/manjushsh-gh-pages/static/css/main.f1f717e3.css.map",
-    "main.06b7168e.js.map": "/manjushsh-gh-pages/static/js/main.06b7168e.js.map"
+    "main.a74ba2cb.css.map": "/manjushsh-gh-pages/static/css/main.a74ba2cb.css.map",
+    "main.650c2a3a.js.map": "/manjushsh-gh-pages/static/js/main.650c2a3a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1f717e3.css",
-    "static/js/main.06b7168e.js"
+    "static/css/main.a74ba2cb.css",
+    "static/js/main.650c2a3a.js"
   ]
 }
