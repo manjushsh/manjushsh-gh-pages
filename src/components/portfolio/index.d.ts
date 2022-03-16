@@ -4,6 +4,7 @@ type CarouselContentType = {
     carouselContent: Function;
     handleSelect: Function;
     setNewURL: Function;
+    showIndex?: boolean;
 };
 
 type GetRandomImageType = {

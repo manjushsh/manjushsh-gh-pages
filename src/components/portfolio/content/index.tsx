@@ -1,9 +1,9 @@
-import DefaultCarousel from "./carousel-load";
+import GalleryView from "./dynamic-carousel";
 
 const Content = () => {
     return (
         <>
-            <DefaultCarousel />
+            <GalleryView />
         </>
     );
 }

@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Carousel } from "react-bootstrap";
-import CommonCarousel from "../common/carousel";
-import { GetRandomImageType } from "../index.d";
-import PlaceHolder from '../assets/colorful.jpg';
+import CommonCarousel from "../../common/carousel";
+import { GetRandomImageType } from "../../index.d";
+import PlaceHolder from '../../assets/colorful.jpg';
 
 import './index.css';
 
